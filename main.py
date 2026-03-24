@@ -75,4 +75,4 @@ results.sort(key=lambda x: x[1], reverse=True)
 for role, score in results[:3]:
     print(f"{role} ({score:.2f}%)")
 
-print("\n✅ Done!")
+print("\n Done!")
