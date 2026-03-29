@@ -21,11 +21,10 @@ This project presents an AI-based Skill Gap Analyzer that compares a student's s
 ##  Technologies Used
 
 * Python
-* Pandas
-* NumPy
-* Scikit-learn
-* NLTK (Natural Language Processing)
-
+* Pandas(for handling data)
+* NumPy(for numerical operations)
+* Scikit-learn(for machine learning)
+•	Basic NLP techniques (TF-IDF and cosine similarity)
 ---
 
 ##  AI/ML Concepts Used
@@ -91,12 +90,19 @@ Best Matched Role: Data Scientist
 
 ### Output:
 
-* Job Match Percentage
-* Best Job Role
-* Missing Skills
-* Top Recommended Roles
+The program will display:
+•	Match percentage for each job role
+•	Best matching job role
+•	Missing skills for each role
+•	Top recommended roles
 
----
+##Example
+
+If a user enters:
+python sql
+The system may suggest roles like Data Analyst or Data Scientist and show which skills are still needed.
+
+
 
 ##  Real-World Applications
 
@@ -119,6 +125,6 @@ Best Matched Role: Data Scientist
 
 ## 📚 Conclusion
 
-This project demonstrates how AI and Machine Learning techniques can be used to solve real-world problems like career guidance and skill analysis. It highlights the practical application of NLP and similarity algorithms in building intelligent systems.
+This project demonstrates how AI and Machine Learning techniques can be used to solve real-world problems like career guidance and skill analysis. It highlights the practical application of NLP and similarity algorithms in building intelligent systems.It provides a simple way for students to analyze their skills and plan their learning more effectively.
 
 
