@@ -95,6 +95,10 @@ The program will display:
 •	Missing skills for each role
 •	Top recommended roles
 
+## 📸 Sample Output
+
+![Output Screenshot](screenshot.png)
+
 ##Example
 
 If a user enters:
