@@ -2,14 +2,14 @@
 
 ##  Problem Statement
 
-Engineering students often lack clarity about the skills required for specific job roles. This leads to inefficient preparation and missed opportunities during placements.
+Engineering students often lack clear guidance on the specific skills required for different job roles. As a result, they tend to prepare without proper direction and may focus on irrelevant or incomplete skill sets. This creates a gap between their abilities and industry expectations, leading to inefficient learning and missed placement opportunities.
 
----
+This project aims to address this issue by helping students identify and understand the skills they need to improve.
 
 ##  Solution
 
-This project presents an AI-based Skill Gap Analyzer that compares a student's skills with job role requirements and identifies:
-
+This project introduces an AI-based Skill Gap Analyzer that evaluates a student’s current skill set against the requirements of various job roles. Using machine learning techniques, it measures the similarity between user skills and industry expectations to generate meaningful insights.
+The system provides:
 * Match Percentage
 * Best Job Role
 * Missing Skills
@@ -34,7 +34,7 @@ This project presents an AI-based Skill Gap Analyzer that compares a student's s
 * Cosine Similarity
 * Text Feature Extraction
 
-Project Structure
+###Project Structure
 skill-gap-analyzer/
 │
 ├── main.py            # Main program
@@ -42,7 +42,7 @@ skill-gap-analyzer/
 ├── requirements.txt   # Required libraries
 └── README.md          # Project documentation
 
-Setup Instructions
+###Setup Instructions
 
 Follow these steps to set up the project on your system:
 
@@ -63,17 +63,16 @@ pip install -r requirements.txt
 ---
 
 
-How to Run the Project
-
-Run the following command in terminal:
-
+## How to Run the Project
+1.	Open terminal in the project folder
+2.	Run the program:
 python main.py
-
-How to Use
-Run the program
-Enter your skills when prompted
-
+3.	Enter your skills when asked
 Example input:
+python sql html
+
+
+#Example input:
 
 python sql html
 The system will display:
@@ -121,9 +120,18 @@ The system may suggest roles like Data Analyst or Data Scientist and show which 
 * Add course recommendations
 * Improve NLP using deep learning
 
+### Learning Outcomes
+Through this project, I learned:
+•	Practical application of Machine Learning concepts 
+•	Working with NLP techniques 
+•	Importance of data preprocessing 
+•	Building end-to-end ML solutions 
+•	Problem-solving and project development skills
+
+
 ---
 
-## 📚 Conclusion
+## Conclusion
 
 This project demonstrates how AI and Machine Learning techniques can be used to solve real-world problems like career guidance and skill analysis. It highlights the practical application of NLP and similarity algorithms in building intelligent systems.It provides a simple way for students to analyze their skills and plan their learning more effectively.
 
